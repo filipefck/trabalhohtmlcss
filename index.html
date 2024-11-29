@@ -1,0 +1,127 @@
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BICICLETEIRO</title>
+    <style>
+	
+      
+       {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      
+      body {
+        background-color: #EEE8AA;
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+
+      
+      h1, h2 {
+        text-align: center;
+        color: #2E8B57; 
+      }
+
+      
+      ul {
+        list-style-type: none;
+        padding: 20px;
+        text-align: center;
+      }
+
+     
+      ul li {
+        margin: 10px 0;
+      }
+
+      ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #333;
+        background-color: #FFD700; 
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      
+      ul li a:hover {
+        background-color: #FF8C00; 
+        color: white;
+      }
+
+      
+      .marquee {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #2E8B57;
+        color: white;
+        font-size: 24px;
+        padding: 10px 0;
+      }
+
+      .marquee-text {
+        display: inline-block;
+        white-space: nowrap;
+        animation: marquee 10s linear infinite;
+      }
+
+      @keyframes marquee {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+
+      
+      img {
+        width: 100%;
+        max-width: 1287px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+      }
+
+     
+      center {
+        display: block;
+        margin-top: 20px;
+      }
+
+    
+      h2 {
+        font-size: 22px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <ul>
+      <li><a href="pagina2.html">Peças e Acessórios</a></li>
+      <li><a href="pagina3.html">Bicicletas</a></li>
+      <li><a href="pagina4.html">Cadastre-se para receber novidades</a></li>
+      <li><a href="pagina5.html">Redes Sociais</a></li>
+      <li><a href="pagina6.html">Currículo</a></li>
+    </ul>
+
+    <center>
+      <h2>
+        A paixão pelo esporte nos faz superar todos os limites!<br>
+        Revendemos produtos de grandes marcas para você pedalar com o maior conforto e rendimento.<br>
+        Do iniciante ao atleta de alta performance.
+      </h2>
+
+      <div class="marquee">
+        <span class="marquee-text"><i>BICICLETEIRO® REVENDEDOR OFICIAL SPECIALIZED!</i></span>
+      </div>
+
+      <img src="bike.jpg" alt="Imagem de ciclistas em ação, pedalando em uma estrada">
+    </center>
+
+  </body>
+</html>
